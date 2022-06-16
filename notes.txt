@@ -4,3 +4,7 @@ the first statment in Go file must be "package ..."
 program entry is func main
 a program can only have 1 "main" function, because you can only have 1 entrypoint
 go compile erros to enforce better code quality
+
+print formatted data with printf -- fmt.printf("some text with a variable %s", myVariable)
+it takes a template string that contains the text that needs to be formatted
+plus some annotation verbs (or placeholder) that tells the fmt funciton how to format the variable passed in
